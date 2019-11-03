@@ -26,7 +26,9 @@ jobs:
       - name: Checkout Logtalk application to be tested
         uses: actions/checkout@v1
       - name: Run all tests in the application directory
-        run: logtalk_tester -p b
+        run: |
+          export PATH=$PATH:$BPDIR
+          logtalk_tester -p b
 ```
 
 ## License
