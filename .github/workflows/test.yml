@@ -1,0 +1,25 @@
+name: Test
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ${{ matrix.operating-system }}
+    strategy:
+      matrix:
+        operating-system: [macOS-latest, ubuntu-latest]
+    steps:
+      - name: Install B-Prolog
+        uses: logtalk-actions/setup-b-prolog@master
+      - name: Run trivial sanity test
+        run: |
+          $BPDIR/bp -g halt
+      - name: Install Logtalk
+        uses: logtalk-actions/setup-logtalk@master
+        with:
+          logtalk-version: latest
+          logtalk-tool-dependencies: false
+      - name: Run Logtalk aliases example tests
+        run: |
+          export PATH=$PATH:$BPDIR
+          cd "$LOGTALKUSER/examples/aliases" && logtalk_tester -p b

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -eo pipefail
+
+cd ~
+
+wget http://www.picat-lang.org/bprolog/download/bp81_linux64.tar.gz
+sudo tar xf bp81_linux64.tar.gz

@@ -1,0 +1,25 @@
+{
+  "name": "setup-b-prolog",
+  "version": "1.0.0",
+  "description": "B-Prolog setup action",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logtalk-actions/setup-b-prolog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/logtalk-actions/setup-b-prolog/issues"
+  },
+  "homepage": "https://github.com/logtalk-actions/setup-b-prolog#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/exec": "^1.0.1",
+    "@actions/github": "^1.1.0"
+  }
+}

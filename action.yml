@@ -1,0 +1,8 @@
+name: Setup B-Prolog
+description: Installs B-Prolog 8.1
+runs:
+  using: 'node12'
+  main: 'src/setup-b-prolog.js'
+branding:
+  icon: 'box'
+  color: 'blue'
