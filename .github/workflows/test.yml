@@ -7,7 +7,7 @@ jobs:
     runs-on: ${{ matrix.operating-system }}
     strategy:
       matrix:
-        operating-system: [macOS-latest, ubuntu-latest]
+        operating-system: [ubuntu-latest]
     steps:
       - name: Install B-Prolog
         uses: logtalk-actions/setup-b-prolog@master
