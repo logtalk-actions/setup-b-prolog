@@ -41,4 +41,6 @@ This project is released under the [Apache License 2.0](LICENSE).
 
 ## Current Status
 
-This action is in active development. This action does not support Windows at this time.
+This action is in active development. This action only supports Linux at this
+time (the macOS package is 32 bit and thus incompatible with macOS 10.15 and
+later versions).

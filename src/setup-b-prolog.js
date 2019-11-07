@@ -14,8 +14,8 @@ async function main() {
 }
 
 function checkPlatform() {
-  if (process.platform == 'win32')
+  if (process.platform !== 'linux')
     throw new Error(
-      '@logtalk-actions/setup-b-prolog does not support Windows at this time'
+      '@logtalk-actions/setup-b-prolog only supports Ubuntu Linux at this time'
     )
 }
