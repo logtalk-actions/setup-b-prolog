@@ -31,6 +31,10 @@ jobs:
           logtalk_tester -p b
 ```
 
+## Contributing
+
+Contributions are most welcome. Contributors are expected to uphold the [code of conduct](CODE_OF_CONDUCT.md).
+
 ## License
 
 This project is released under the [Apache License 2.0](LICENSE).
