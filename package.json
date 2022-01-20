@@ -19,7 +19,7 @@
   "homepage": "https://github.com/logtalk-actions/setup-b-prolog#readme",
   "dependencies": {
     "@actions/core": "^1.6.0",
-    "@actions/exec": "^1.0.1",
+    "@actions/exec": "^1.1.0",
     "@actions/github": "^1.1.0",
     "utils": "^0.3.1"
   }
