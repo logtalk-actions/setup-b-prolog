@@ -4,5 +4,6 @@ set -eo pipefail
 
 cd ~
 
+brew install coreutils
 wget http://www.picat-lang.org/bprolog/download/bp81_macx.tar.gz
 sudo tar xf bp81_macx.tar.gz
